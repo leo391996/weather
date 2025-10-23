@@ -1,0 +1,56 @@
+@media (max-width: 768px) {
+    /* styles for screens with width of 768px or less */
+  }
+.condent{
+    margin-top:20px;
+    background-color:#000000;
+    background-image:url("src/assets/Images/weather.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:650px;
+    width:100%;
+}
+input[type=text] {
+    max-width: 300px;
+}
+#input{
+margin-top: 100px;
+}
+.form-control{
+    margin: auto;
+}
+.input{
+  margin-top:20px;
+  padding:7px 40px;
+  margin-left: 80px;
+
+}
+.button{
+    border-width: 0px;
+    padding:7px 25px;
+    background-color:greenyellow;
+    color:black;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.button:hover{
+    background-color: #e85810;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#button1{
+    margin: auto 475px;
+    width:100px;
+}
+#button2{
+    margin: auto 475px;
+}
+.tem{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hum{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+

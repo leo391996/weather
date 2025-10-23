@@ -1,0 +1,227 @@
+<div class="container-fluid firstone">
+  <div class="row ">
+      <div class="header">
+     <div class=" input1"><p  >
+      <select  style= size:300px; (change)="newstypes($event)">  
+            <option></option>
+            <option  >business</option>
+            <option  >entertainment</option>
+            <option  >general</option>
+            <option  >health</option>
+            <option  >science</option>
+            <option  >sports</option>
+            <option  >technology</option>
+          </select>
+
+        </p>
+      </div>
+      <div class="input2">
+    <p >
+      <select style= size:300px; (change)="countryname($event)">  
+            <option></option>
+            <option  >ae</option>
+            <option  >ar</option>
+            <option  >at</option>
+            <option  >au</option>
+            <option  >be</option>
+            <option  >bg</option>
+            <option  >br</option>
+            <option  >ca</option>
+            <option  >ch</option>
+            <option  >cn</option>
+            <option  >co</option>
+            <option >cu</option>
+            <option  >cz</option>
+            <option  >de</option>
+            <option  >eg</option>
+            <option  >fr</option>
+            <option  >gb</option>
+            <option  >gr</option>
+            <option  >hk</option>
+            <option  >hu</option>
+            <option  >id</option>
+            <option  >ie</option>
+            <option  >il</option>
+            <option  >in</option>
+            <option  >it</option>
+            <option  >jp</option>
+            <option  >kr</option>
+            <option  >lt</option>
+            <option  >lv</option>
+            <option  >ma</option>
+            <option  >mx</option>
+            <option  >my</option>
+            <option  >ng</option>
+            <option  >nl</option>
+            <option  >no</option>
+            <option  >nz</option>
+            <option  >ph</option>
+            <option  >pl</option>
+            <option  >pt</option>
+            <option  >ro</option>
+            <option  >rs</option>
+            <option  >ru</option>
+            <option  >sa</option>
+            <option >se</option>
+            <option >sg</option>
+            <option  >si</option>
+            <option  >sk</option>
+            <option  >th</option>
+            <option  >tr</option>
+            <option  >tw</option>
+            <option  >ua</option>
+            <option  >us</option>
+            <option  >ve</option>
+            <option  >za</option>
+        </select>
+
+
+      </p>
+    </div>
+    <div class="input3" >
+      <p >
+        <button class="click" (click)="validate()" style="vertical-align:middle"><span>Go</span></button>
+      </p>
+    </div>
+    </div>
+
+  <div class="row condent1">
+          <div class="col-sm condent3">
+            <div>
+            <img onmouseover="img0()" class="img0" [src]="urlToImage0" object-fit: contain/>
+            </div>
+            <div class="title0">
+              <p ><b>{{title0}}</b></p>
+            </div>
+            <div class="hello">
+              <a class="button1" href={{url0}} target="_blank"><span>Read More</span></a>
+            </div>
+          </div>
+        <div class="col-sm condent4">
+          <div>
+            <img onmouseover="imge1()" class="img0"  [src]="urlToImage1" object-fit: contain/>
+          </div>
+          <div class="title0">
+              <p ><b>{{title1}}</b></p>
+          </div>
+          <div class="hello">
+            <a class="button1" href={{url1}} target="_blank"><span>Read More</span></a>
+          </div> 
+       </div>
+       <div class="col-sm condent5">
+          <div >
+            <img onmouseover="img2()" class="img0" [src]="urlToImage2" object-fit: contain/>
+          </div>
+          <div class="title0">
+              <p ><b>{{title2}}</b></p>
+          </div>
+          <div class="hello">
+            <a class="button1" href={{url2}} target="_blank"><span>Read More</span></a>
+          </div>
+        </div>
+       <div class="col-sm condent6">
+          <div >
+            <img onmouseover="img3()" class="img0" [src]="urlToImage3" object-fit: contain/>
+          </div>
+          <div class="title0">
+            <p ><b>{{title3}}</b></p>
+          </div>
+          <div class="hello">
+            <a class="button1" href={{url3}} target="_blank"><span>Read More</span></a>
+          </div>
+       </div>
+  </div>
+  <div class="row condent2">
+    <div class="col-sm condent3">
+      <div>
+      <img onmouseover="img4()" class="img0" [src]="urlToImage4" object-fit: contain/>
+      </div>
+      <div class="title0">
+        <p ><b>{{title4}}</b></p>
+      </div>
+      <div class="hello">
+        <a href={{url4}} target="_blank"><span>Read More</span></a>
+      </div>
+    </div>
+  <div class="col-sm condent4">
+    <div>
+      <img onmouseover="imge5()" class="img0"  [src]="urlToImage5" object-fit: contain/>
+    </div>
+    <div class="title0">
+        <p ><b>{{title5}}</b></p>
+    </div>
+    <div class="hello">
+      <a class="button1" href={{url5}} target="_blank"><span>Read More</span></a>
+    </div> 
+ </div>
+ <div class="col-sm condent5">
+    <div >
+      <img onmouseover="img6()" class="img0" [src]="urlToImage6" object-fit: contain/>
+    </div>
+    <div class="title0">
+        <p ><b>{{title6}}</b></p>
+    </div>
+    <div class="hello">
+      <a class="button1" href={{url6}} target="_blank"><span>Read More</span></a>
+    </div>
+  </div>
+ <div class="col-sm condent6">
+    <div >
+      <img onmouseover="img7()" class="img0" [src]="urlToImage7" object-fit: contain/>
+    </div>
+    <div class="title0">
+      <p ><b>{{title7}}</b></p>
+    </div>
+    <div class="hello">
+      <a class="button1" href={{url7}} target="_blank"><span>Read More</span></a>
+    </div>
+ </div>  
+  </div>
+  <div class="row condent2">
+    <div class="col-sm condent3">
+      <div>
+      <img onmouseover="img8()" class="img0" [src]="urlToImage8" object-fit: contain/>
+      </div>
+      <div class="title0">
+        <p ><b>{{title8}}</b></p>
+      </div>
+      <div class="hello">
+        <a href={{url8}} target="_blank"><span>Read More</span></a>
+      </div>
+    </div>
+  <div class="col-sm condent4">
+    <div>
+      <img onmouseover="imge9()" class="img0"  [src]="urlToImage9" object-fit: contain/>
+    </div>
+    <div class="title0">
+        <p ><b>{{title9}}</b></p>
+    </div>
+    <div class="hello">
+      <a class="button1" href={{url9}} target="_blank"><span>Read More</span></a>
+    </div> 
+ </div>
+ <div class="col-sm condent5">
+    <div >
+      <img onmouseover="img10()" class="img0" [src]="urlToImage10" object-fit: contain/>
+    </div>
+    <div class="title0">
+        <p ><b>{{title10}}</b></p>
+    </div>
+    <div class="hello">
+      <a class="button1" href={{url10}} target="_blank"><span>Read More</span></a>
+    </div>
+  </div>
+ <div class="col-sm condent6">
+    <div >
+      <img onmouseover="img11()" class="img0" [src]="urlToImage11" object-fit: contain/>
+    </div>
+    <div class="title0">
+      <p ><b>{{title11}}</b></p>
+    </div>
+    <div class="hello">
+      <a class="button1" href={{url11}} target="_blank"><span>Read More</span></a>
+    </div>
+ </div>  
+  </div>
+</div>
+      

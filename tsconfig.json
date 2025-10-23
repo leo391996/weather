@@ -2,11 +2,14 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "types": ["node"],
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
+    "strictPropertyInitialization": false,
     "strict": true,
     "noImplicitOverride": true,
+    "skipLibCheck": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
@@ -21,7 +24,9 @@
     "lib": [
       "es2020",
       "dom"
-    ]
+    ],
+   
+   
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
